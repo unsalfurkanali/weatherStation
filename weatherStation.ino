@@ -4,12 +4,12 @@
 #include <Wire.h>
 #include <BMP180I2C.h>
 
-#define USERNAME "furkanunsal"
-#define DEVICE_ID "1864"
-#define DEVICE_CREDENTIAL "ceydali"
+#define USERNAME "thinger username"
+#define DEVICE_ID "devices id"
+#define DEVICE_CREDENTIAL "project credential"
 
-#define SSID "TurkTelekom_ZRCVH"
-#define SSID_PASSWORD "06dAd8354B7B8"
+#define SSID "router name"
+#define SSID_PASSWORD "router password"
 
 ThingerESP32 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
